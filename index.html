@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Practical Todos</title>
+  </head>
+  <body>
+    <h1>Todo List</h1>
+
+    <div>
+      <button onclick="handlers.toggleAll()">Toggle All</button>
+    </div>
+    
+    <div>
+      <button onclick="handlers.addTask()">Add</button>
+      <input id="addTaskTextInput" type="text">
+    </div>
+    
+    <div>
+      <button onclick="handlers.changeTask()">Change Todo</button>
+      <input id="changeTaskPositionInput" type="number">
+      <input id="changeTaskTextInput" type="text">
+    </div>
+    
+    <div>
+      <button onclick="handlers.toggleCompleted()">Toggle Completed</button>
+      <input id="toggleCompletedPositionInput" type="number">
+    </div>
+    
+    <ul>
+    </ul>
+    <script src="app.js"></script>
+  </body>
+</html>
