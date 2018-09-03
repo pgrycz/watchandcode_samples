@@ -1,4 +1,4 @@
-'# watchandcode_samples' 
+# watchandcode_samples
 
 This repository is intended to follow watchandcode.com approach of practical JS
 
